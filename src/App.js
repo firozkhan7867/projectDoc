@@ -3,14 +3,24 @@ import "./App.css";
 // import SignupPage from "../src/components/SignupPage";
 // import PatientsList from "./components/PatientsList";
 import HomePage from "../src/components/HomePage";
+import Navbar from "./components/Navbar";
+import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App container mx-auto">
+    <div className="App  ">
+      <Router>
+
+      <Navbar/>
+      
+      <HomePage />
+
+
+      </Router>
         {/* <LoginPage /> */}
       {/* <SignupPage /> */}
       {/* <PatientsList /> */}
-      <HomePage />
+      
     </div>
   );
 }
