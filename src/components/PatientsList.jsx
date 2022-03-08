@@ -61,7 +61,7 @@ const PatientsList = () => {
                 </div>
             </div>
             <div className="w-3/4 ml-8 px-3 py-2 h-screen overflow-y-auto">
-                <div className="bg-white shadow-md mb-4 flex justify-between p-3">
+                <div className="bg-white shadow-sm mb-1 flex justify-between p-3">
                     <div className="p-1 flex">
                     <img src={patient} alt="" width="120" height="120"/>
                     <div className="text-left ml-8 p-2">
@@ -81,7 +81,7 @@ const PatientsList = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-white shadow-md mb-4 flex justify-between p-3">
+                <div className="bg-white shadow-sm mb-1 flex justify-between p-3">
                     <div className="p-1 flex">
                     <img src={patient} alt="" width="120" height="120"/>
                     <div className="text-left ml-8 p-2">
@@ -101,7 +101,7 @@ const PatientsList = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-white shadow-md mb-4 flex justify-between p-3">
+                <div className="bg-white shadow-sm mb-1 flex justify-between p-3">
                     <div className="p-1 flex">
                     <img src={patient} alt="" width="120" height="120"/>
                     <div className="text-left ml-8 p-2">
@@ -121,7 +121,7 @@ const PatientsList = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-white shadow-md mb-4 flex justify-between p-3">
+                <div className="bg-white shadow-sm mb-1 flex justify-between p-3">
                     <div className="p-1 flex">
                     <img src={patient} alt="" width="120" height="120"/>
                     <div className="text-left ml-8 p-2">
@@ -141,7 +141,7 @@ const PatientsList = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-white shadow-md mb-4 flex justify-between p-3">
+                <div className="bg-white shadow-sm mb-1 flex justify-between p-3">
                     <div className="p-1 flex">
                     <img src={patient} alt="" width="120" height="120"/>
                     <div className="text-left ml-8 p-2">
@@ -161,7 +161,7 @@ const PatientsList = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bg-white shadow-md mb-4 flex justify-between p-3">
+                <div className="bg-white shadow-sm mb-1 flex justify-between p-3">
                     <div className="p-1 flex">
                     <img src={patient} alt="" width="120" height="120"/>
                     <div className="text-left ml-8 p-2">

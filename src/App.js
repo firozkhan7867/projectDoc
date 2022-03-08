@@ -1,10 +1,11 @@
 import "./App.css";
-// import LoginPage from "../src/components/LoginPage";
+import LoginPage from "../src/components/LoginPage";
 // import SignupPage from "../src/components/SignupPage";
-// import PatientsList from "./components/PatientsList";
+import PatientsList from "./components/PatientsList";
 import HomePage from "../src/components/HomePage";
 import Navbar from "./components/Navbar";
 import {BrowserRouter as Router} from 'react-router-dom';
+import Dashboard from "./components/Dashboard/Dashboard";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
 
       <Navbar/>
       
-      <HomePage />
+      {/* <HomePage /> */}
+      <Dashboard />
 
 
       </Router>
