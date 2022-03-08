@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { NavLink as Link } from 'react-router-dom';
 import {FaBars} from 'react-icons/fa';
-
+import {BsCheck2Circle } from "react-icons/bs";
 
 
 export const Nav  = styled.nav`
@@ -19,6 +19,11 @@ export const NavLink = styled(Link)`
     text-decoratiom: none;
     padding: 0 1rem;
     cursor: pointer;
+`
+
+export const CheckIcon = styled(BsCheck2Circle)`
+    color: #1dbe63;
+    font-size: 1.8rem;
 `
 
 
