@@ -1,6 +1,7 @@
 import React from 'react'
 import patient from '../../img/patient.jpg';
 import doctor from '../../img/doctor-thumb-02.jpg';
+import Tabs from '../Tabs/Tab';
 
 const Dashboard = () => {
   return (
@@ -17,8 +18,8 @@ const Dashboard = () => {
               </div>
           </div>
       </div>
-      <div className="bg-gray-50 flex p-6">
-            <div className="bg-grey-100 shadow-md bg-white w-1/4">
+      <div className="bg-gray-50  p-6 grid grid-cols-1 md:grid-cols-1 lg:flex  gap-2 w-full">
+            <div className="bg-grey-100 shadow-md bg-white sm:w-6/12 md:w-full lg:w-4/12 w-full">
                     <div className="w-full flex  justify-center p-2">
                         <img src={doctor} alt="" width="120" height="120" className="border-4 border-gray-200 rounded-full"/>
                     </div>
@@ -60,8 +61,8 @@ const Dashboard = () => {
                     <p className="text-left	pl-4 pr-3 text-md capitalize text-gray-600	hover:text-sky-400" >Logout</p>
                 </div>
             </div>
-            <div className="w-3/4 ml-8 px-3 h-screen   ">
-                <div className="bg-white shadow-sm mb-5 h-40 grid lg:grid-cols-3 xl:grid-col-3 md:grid-col-3 grid-col-1 p-3">
+            <div className=" w-full md:w-full lg:w-full  px-3 h-screen ">
+                <div className="bg-white shadow-sm mb-5 py-4 grid lg:grid-cols-3 xl:grid-col-3 md:grid-col-3 grid-col-1 p-3">
                     <div className="flex justify-start text-left items-center">
                         <div className="h-20 w-6/12 bg-gray-500">
                         </div>
@@ -91,24 +92,8 @@ const Dashboard = () => {
                     </div>
                 </div>
                 <div className="bg-white shadow-sm mb-1 flex justify-between p-3">
-                    <div className="p-1 flex">
-                    <img src={patient} alt="" width="120" height="120"/>
-                    <div className="text-left ml-8 p-2">
-                        <p className="font-semibold text-lg">Richard Wilson</p>
-                        <p className="text-gray-400 font-normal hover:font-medium text-sm">14 Nov 2019, 10.00 AM</p>
-                        <p className="text-gray-400 font-normal hover:font-medium text-sm">Newyork, United States</p>
-                        <p className="text-gray-400 font-normal hover:font-medium text-sm">richard@example.com</p>
-                        <p className="text-gray-400 font-normal hover:font-medium text-sm">+1 923 782 4575</p>
-                    </div>
-                    </div>
-                    <div className="flex m-4 pt-8">
-                        <div className="">
-                        <button type="button" class="bg-slate-100 text-slate-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 "><i class="fa fa-eye-open"></i>View</button>
-                        <button type="button" class="bg-green-100 text-green-400 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Accept</button>
-                        <button type="button" class="bg-red-100 text-red-400	 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Cancel</button>
-
-                        </div>
-                    </div>
+                    
+                    <Tabs />                    
                 </div>
                 
 

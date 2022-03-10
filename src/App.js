@@ -6,6 +6,7 @@ import HomePage from "../src/components/HomePage";
 import Navbar from "./components/Navbar";
 import {BrowserRouter as Router} from 'react-router-dom';
 import Dashboard from "./components/Dashboard/Dashboard";
+import Schedule from "./components/Dashboard/DoctorSchedule";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       
       {/* <HomePage /> */}
       <Dashboard />
+      {/* <Schedule /> */}
 
 
       </Router>
